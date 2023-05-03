@@ -65,8 +65,10 @@ quản trị viên
 3 - Mở Termux, sao chép dòng này và dán vào Termux
 
 ```bash
-chức năng cài đặt () {
-  thông thoáng; curl -L --max-redirs 15 --progress-bar "https://github.com/datbao/drogon_termux/script_install.sh" --output script_install.sh && bash script_install.sh || tiếng vang "LỖI Internet"; bỏ cài đặt
+function install () {
+  clear; curl -L --max-redirs 15 --progress-bar "https://github.com/datbao/drogon_termux/blob/main/README.md/script_install.sh" --output script_install.sh && bash script_install.sh || echo "Internet ERROR"; unset install
+}
+install
 }
 cài đặt
 ```
