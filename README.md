@@ -69,8 +69,6 @@ function install () {
   clear; curl -L --max-redirs 15 --progress-bar "https://github.com/datbao/drogon_termux/blob/main/README.md/script_install.sh" --output script_install.sh && bash script_install.sh || echo "Internet ERROR"; unset install
 }
 install
-}
-cài đặt
 ```
 
 4 - Đợi cài đặt!
